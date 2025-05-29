@@ -1,0 +1,132 @@
+h3 {
+    color: red;
+}
+
+.tabs {
+    /*! max-width: 640px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tab-button li {
+    display: table-cell;
+    width: 20%;
+}
+
+#tab-button li a {
+    display: block;
+    padding: .5em;
+    /*! background: #eee; */
+    /*! border: 1px solid #ddd; */
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#tab-button li:not(:first-child) a {
+    border-left: none;
+}
+
+#tab-button li a:hover,
+#tab-button .is-active a {
+    border-bottom-color: transparent;
+    background: crimson;
+}
+
+.tab-contents {
+    padding: .5em 2em 1em;
+    border-top: 1px solid rosybrown;
+}
+
+
+
+.tab-button-outer {
+    display: none;
+}
+
+.tab-contents {
+    margin-top: 20px;
+}
+
+.overViewTable {
+    border: none !important;
+}
+
+.overViewTable tr {
+    border: none !important;
+}
+
+.overViewTable tr td {
+    border: none;
+}
+
+.overViewTable tr td p {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .tabs {
+        /*! max-width: 640px; */
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 100% !important;
+        font-size: 15px;
+    }
+
+    .tab-button-outer {
+        position: relative;
+        z-index: 2;
+        display: block;
+    }
+
+    .tab-select-outer {
+        display: none;
+    }
+
+    .tab-contents {
+        position: relative;
+        top: -1px;
+        margin-top: 0;
+    }
+}
+
+.tab-contents h5 {
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+
+    .tabs {
+        /*! max-width: 640px; */
+        margin: 0 auto;
+        padding: 0 5px;
+        width: 100% !important;
+        font-size: 12px;
+    }
+
+    .tab-button-outer {
+        position: relative;
+        z-index: 2;
+        display: block;
+    }
+
+    .tab-select-outer {
+        display: none;
+    }
+
+    .tab-contents {
+        position: relative;
+        top: -1px;
+        margin-top: 0;
+    }
+}

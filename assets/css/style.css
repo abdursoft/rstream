@@ -1,0 +1,10 @@
+h3{
+    color: red;
+}
+.abs_video_item td{
+    text-align: center;
+}
+.abs_video_item>td>a{
+    color: coral !important;
+    text-decoration: none;
+}

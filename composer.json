@@ -1,0 +1,19 @@
+{
+    "name": "abdur/r-stream",
+    "description": "Play your videos with rstream plugin & player",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abdur\\RStream\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdursoft",
+            "email": "abdursoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
